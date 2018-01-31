@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- <link rel="icon" href="./static/favicon.png" type="image/x-icon"> -->
+    <title>外勤</title>
+  </head>
+  <body>
+    <div id="app" style="height:100%">
+      <app></app>
+    </div>
+    <!-- built files will be auto injected -->
+    <script src="//map.qq.com/api/js?v=2.exp"></script>
+    <script type="text/javascript" src="https://3gimg.qq.com/lightmap/components/geolocation/geolocation.min.js"></script>
+    
+    <script>
+      var  OUT_DATA_CONFIG={};
+      OUT_DATA_CONFIG.token='a50c1525517946a37201a78c754fdcf201992ade';
+      OUT_DATA_CONFIG.jsapi_config={"appid":"wxd56c99c14806936a","noncestr":"VMx3xMj39sx2czTQ","timestamp":1483609997,"url":"http:\/\/mp.dev.xxkj.com\/out","signature":"962ecb13a6689e13a8e689cc26f27a101405e1fa"};
+      OUT_DATA_CONFIG.lbs_key='S2EBZ-POZ3K-LG2J7-AHBOS-AKXCZ-5OF4U';
+      OUT_DATA_CONFIG.cos={"appid":"10015520","signurl":"http:\/\/corp.dev.xxkj.com\/account\/callback\/qcloudauth","remotepath":"\/1\/967\/out\/"};
+      var geolocation = new qq.maps.Geolocation(OUT_DATA_CONFIG.lbs_key, "myapp");
+    </script>
+  </body>
+</html>

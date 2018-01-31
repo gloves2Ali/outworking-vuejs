@@ -1,0 +1,103 @@
+.fl {float:left;}
+.fr {float: right;}
+.clear {clear: both;overflow: hidden;}
+.ml-10 {margin-left: 10px;}
+.mr-10 {margin-right: 10px;}
+.mt-10 {margin-top: 10px;}
+.mb-10 {margin-bottom: 10px;}
+.mb-20 {margin-bottom: 20px;}
+.fs-13 {font-size: 13px;}
+.fs-15 {font-size: 15px;}
+.t-r {text-align: right;}
+.t-c {text-align: center;}
+.w-60 {width: 60px!important}
+.c-title {color:#000;}
+.c-time {color:#0E87EF;}
+.c-888 {color: #888}
+.ps-r {position: relative;}
+.ellipsis {white-space: nowrap;overflow: hidden;text-overflow:ellipsis;}
+.border-bottom {
+    background-image: -webkit-linear-gradient(bottom, #E5E5E5, #E5E5E5 50%, transparent 0%);
+    background-image: linear-gradient(0deg,#E5E5E5,#E5E5E5 50%,transparent 0);
+    background-size: 100% 1px;
+    background-repeat:no-repeat; 
+    background-position: bottom;
+}
+/* 无数据提示 */
+.nodata {
+      width:100%;
+    }
+      .nodata-img {
+        display: block;
+        width: 320px;
+        margin:0 auto;
+        padding-top:30px;
+        padding-bottom:40px;
+      }
+    .nodata div {
+        font-weight:700;
+        color: #333;
+    }
+/* 图片查看器 */
+/*.page {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    opacity: 1;
+  }  
+  .page.gallery {
+    opacity: 1;
+    overflow:hidden;
+  }
+    .page-gallery {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom:0;
+      left:0;
+      background:#000;
+      z-index:11000;
+    }
+    .page-gallery_img {
+      position: absolute;
+      top:0;
+      right: 0;
+      bottom:60px;
+      left: 0;
+      background:center center no-repeat;
+      background-size: contain;
+    }*/
+.page {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    opacity: 1;
+    height: 100%;
+    z-index:10999;
+    background:#000;
+  }
+  .mint-swipe-indicators {
+    z-index: 11000;
+  }
+  .mint-swipe-indicator {
+    background-color: #c6c6c6;
+  }
+    .mint-swipe-item{
+      -webkit-align-items:center;
+      -ms-flex-align:center;
+      align-items:center;
+      display:-webkit-flex!important;
+      display:flex!important;
+      overflow: hidden;
+      z-index: 11000;
+    }
+      .mint-swipe-item img {
+        width: 100%;
+      }
+  

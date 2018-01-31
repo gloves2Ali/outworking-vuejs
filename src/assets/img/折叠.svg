@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="7px" viewBox="0 0 6 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>折叠</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="机构选择" transform="translate(-85.000000, -159.000000)" fill="#0E87EF">
+            <g id="组织机构">
+                <g id="折叠" transform="translate(80.000000, 154.000000)">
+                    <path d="M8.5,8 L8.5,5.5 L7.5,5.5 L7.5,8 L5,8 L5,9 L7.5,9 L7.5,11.5 L8.5,11.5 L8.5,9 L11,9 L11,8 L8.5,8 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
